@@ -2,7 +2,7 @@
 include "../include/conexion.php";
 include "../include/busquedas.php";
 
-    // traemos los datos desde nuestro form con el moto get
+    // traemos los datos desde nuestro form con el metodo get
     $id = $_POST['id'];
     $nombre = $_POST['nombre'];
     $fecha_inicio = $_POST['fecha_inicio'];

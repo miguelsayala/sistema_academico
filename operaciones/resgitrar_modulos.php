@@ -5,6 +5,7 @@ $programa_estudios = $_POST['programa_estudios'];
 $descripcion = $_POST['descripcion'];
 $nro_modulo = $_POST['nro_modulo'];
 
+
 $sql = "INSERT INTO modulo_profesional (descripcion, nro_modulo, id_programa_estudio) VALUES('$descripcion', '$nro_modulo', '$programa_estudios')";
 
 $ejec_sql = mysqli_query($conexion, $sql);
